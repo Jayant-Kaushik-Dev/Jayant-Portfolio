@@ -1,12 +1,10 @@
 /* Change this file to get your personal Portfolio */
-
 // To change portfolio colors globally go to the  _globalColor.scss file
 
 import emoji from "react-easy-emoji";
 import splashAnimation from "./assets/lottie/splashAnimation"; // Rename to your file name for custom animation
 
 // Education Section
-
 const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
@@ -25,7 +23,6 @@ const educationInfo = {
 };
 
 // Splash Screen
-
 const splashScreen = {
   enabled: true, // set false to disable splash screen
   animation: splashAnimation,
@@ -41,15 +38,13 @@ const greeting = {
   username: "guptasupriya",
   title: "Hello! I am Supriya",
   workTitle: emoji(
-    "Full-Stack Developer | CS Graduate | AWS Certified | Building scalable solutions with Python, Java, React & FastAPI"
+    "🚀 Full-Stack Developer | CS Graduate | AWS Certified | Building scalable solutions with Python, Java, React & FastAPI"
   ),
-  funTitle: emoji("I read to grow, I build to inspire, and I learn without limits :D"),
-  futureTitle: emoji("Reimagine. Rebuild. Recode what doesn’t feel right"),
+  funTitle: emoji("Strumming code and 🎸 strings alike, I read to grow, and never stop learning"),
+  futureTitle: emoji("🛠️ Reimagine. Rebuild. Recode what doesn’t feel right"),
   resumeLink: "https://drive.google.com/file/d/1aaMNV3ukhFgTTAT_oENMg4oMx5GPxPOe/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
-
-
 // Social Media Links
 
 const socialMediaLinks = {
@@ -62,31 +57,28 @@ const socialMediaLinks = {
   display: true // Set true to display this section, defaults to false
 };
 
-
-
 // Skills Section
 
 const skillsSection = {
-  title: "Passionate about",
-  subTitle: "Developing with curiosity, breaking with intent, and building with empathy",
+  title: "What I do",
+  subTitle: "Backend engineer who loves to build, break and rebuild.",
   skills: [
     emoji(
-      " 🌟  Building backend systems that are reliable, efficient, and thoughtfully designed."
+      "⚡ Swiftly create, break and validate novel solutions for emerging challenges."
     ),
     emoji(
-      " 🌟  Stay hands-on by deploying Dockerized apps and crafting interactive portfolios."
+      "⚡ Skilled in crafting scalable observability backends for metrics with robust CI/CD."
     ),
     emoji(
-      " 🌟  Enhancing product quality through test automation,CI/CD practices. "
+      "⚡ Proficient in establishing robust data pipelines to gather and store metrics from virtual machines and Kubernetes."
     ),
     emoji(
-      " 🌟 Sharing knowledge, supporting others and building tech in meaningful ways"
+      "⚡ Share and discuss ideas with patience to foster positive social interaction for innovation."
     )
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
 https://fontawesome.com/icons?d=gallery */
-
   softwareSkills: [
     {
       skillName: "Python",
@@ -94,48 +86,46 @@ https://fontawesome.com/icons?d=gallery */
     },
     {
       skillName: "RESTful APIs",
-      fontAwesomeClassname: "fas fa-code-commit"  
+      fontAwesomeClassname: "fab fa-golang"
     },
     {
-      skillName: "Docker",
+      skillName: "Agile Development",
       fontAwesomeClassname: "fab fa-docker"
     },
     {
       skillName: "Automation Testing",
-      fontAwesomeClassname: "fa-solid fa-gear"
+      fontAwesomeClassname: "fa-solid fa-dharmachakra"
     },
     {
       skillName: "AWS",
       fontAwesomeClassname: "fa-solid fa-cloud"
     },
     {
-      skillName: "Agile Development",
-      fontAwesomeClassname: "fa-solid fa-arrows-spin"
+      skillName: "Observability",
+      fontAwesomeClassname: "fa-solid fa-magnifying-glass"
     }
   ],
   display: true // Set false to hide this section, defaults to true
 };
-
-
 
 // Your top 3 proficient stacks/tech experience
 const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Scalable System Design",
+      Stack: "Observability",
       progressPercentage: "90%"
     },
     {
-      Stack: "Agile Software Development",
+      Stack: "Cloud and Microservices",
       progressPercentage: "85%"
     },
     {
-      Stack: "End-to-End Project Delivery", //Insert stack or technology you have experience in
+      Stack: "Backend/Design/Develop", //Insert stack or technology you have experience in
       progressPercentage: "80%" //Insert relative proficiency in percentage
     },
     {
-      Stack: "Cloud-Native Development",
+      Stack: "CI/CD",
       progressPercentage: "75%"
     }
   ],
@@ -187,34 +177,34 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "Projects",
+  subtitle: "PERSONAL PROJECTS HELPED BUSINESSES",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/SP.jpeg"),
+      projectName: "Secured Password Generator",
+      projectDesc: "A React-based app creates secured customized password for user",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://saayahealth.com/"
+          url: "https://secure-password-generator-theta.vercel.app/"
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/D.jpeg"),
+      projectName: "Dockerized Python Web Application",
+      projectDesc: "Python application, containerized it using Docker,",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://nextu.se/"
+          url: "https://python-2-dockerized-app.onrender.com/"
         }
       ]
     }
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Achievement Section
@@ -269,13 +259,13 @@ const achievementSection = {
 
 // Blogs Section
 const blogSection = {
-  title: "Blogs",
-  subtitle: "My journey to be tech smart",
+  title: "Shout outs 🎙️",
+  subtitle: "Hear It from the Source",
   displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
     {
-      url: "url1-loading...",
-      title: "title1-loading...",
+      url: "https://www.linkedin.com/feed/update/urn:li:activity:7024852540273958912/",
+      title: "",
       brief: "brief1-loading..."
     },
     {
@@ -285,6 +275,30 @@ const blogSection = {
     }
   ],
   display: false // Set false to hide this section, defaults to true
+};
+
+// Podcast Section
+
+const podcastSection = {
+  title: emoji("Shout outs 🎙️"),
+  subtitle: "Reccomendation from my mentors",
+
+  // Please Provide with Your Podcast embeded Link
+  
+  podcast: [
+    {
+    //image : "https://www.linkedin.com/feed/update/urn:li:activity:7024852540273958912/"
+    companylogo: require("./assets/images/university logo.png"),
+    link : " https://www.linkedin.com/feed/update/urn:li:activity:7024852540273958912/"
+    },
+    {
+      //image : "https://www.linkedin.com/feed/update/urn:li:activity:7024852540273958912/"
+      companylogo: require("./assets/images/LI.jpeg"),
+      link : "https://www.linkedin.com/in/gupta-supriya/details/recommendations/"
+      }
+
+  ],
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -298,36 +312,14 @@ const talkSection = {
     {
       title: "Build Actions For Google Assistant",
       subtitle: "Codelab at GDG DevFest Karachi 2019",
-      slides_url: "",
+      slides_url: "https://bit.ly/guptaachin-slides",
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
   display: false // Set false to hide this section, defaults to true
 };
 
-// Podcast Section
 
-const podcastSection = {
-  title: emoji("Shout outs 📣"),
-  subtitle: "Click! to know what my mentors and peers says about me",
-
-  // Please Provide with Your Podcast embeded Link
-  
-  podcast: [
-    {
-      companylogo: require("./assets/images/university logo.png"),
-      link: "https://www.linkedin.com/feed/update/urn:li:activity:7024852540273958912/",
-      description: ""
-    },
-    {
-      companylogo: require("./assets/images/gaotek.webp"),
-      link: "https://www.linkedin.com/in/gupta-supriya/details/recommendations/",
-      description: ""
-    },
-    
-  ],
-  display: true // Set false to hide this section, defaults to true
-};
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
@@ -343,7 +335,6 @@ const twitterDetails = {
   userName: "twitter", //Replace "twitter" with your twitter username without @
   display: false // Set true to display this section, defaults to false
 };
-
 const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 
 export {
@@ -363,5 +354,5 @@ export {
   podcastSection,
   contactInfo,
   twitterDetails,
-  isHireable
+  isHireable,
 };

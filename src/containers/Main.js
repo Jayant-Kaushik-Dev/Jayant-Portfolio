@@ -57,10 +57,6 @@ const Main = () => {
             <WorkExperience />
             {/* <Projects /> */}
             <Education />
-            
-            
-            
-            
             <StartupProject />
             <Achievement />
             <Blogs />

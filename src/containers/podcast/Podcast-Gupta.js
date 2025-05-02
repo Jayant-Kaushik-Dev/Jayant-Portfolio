@@ -1,18 +1,17 @@
-import React, {useContext} from "react";
+import React, { useContext } from "react";
 import "./Podcast.scss";
-import {podcastSection} from "../../portfolio";
-import {Fade} from "react-reveal";
+import { podcastSection } from "../../portfolio";
+import { Fade } from "react-reveal";
 import StyleContext from "../../contexts/StyleContext";
 
 export default function Podcast() {
-  const {isDark} = useContext(StyleContext);
+  const { isDark } = useContext(StyleContext);
 
-  if (!podcastSection)
-    console.error("podcastSection object for Podcast section is missing");
-
-  if (!podcastSection.display) {
+  // Check if podcastSection is defined and should be displayed
+  if (!podcastSection || !podcastSection.display) {
     return null;
   }
+
   return (
     <Fade bottom duration={1000} distance="20px">
       <div className="main">
@@ -28,6 +27,7 @@ export default function Podcast() {
             {podcastSection.subtitle}
           </p>
         </div>
+
         <div className="podcast-main-div">
           {podcastSection.podcast.map((podcast, i) => {
             if (!podcast.link) {
