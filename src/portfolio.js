@@ -2,18 +2,17 @@
 // To change portfolio colors globally go to the  _globalColor.scss file
 
 import emoji from "react-easy-emoji";
-import splashAnimation from "./assets/lottie/splashAnimation"; // Rename to your file name for custom animation
+import splashAnimation from "./assets/lottie/Codingboy.json"; // Rename to your file name for custom animation
 
 // Education Section
 const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "University of Manitoba",
-      logo: require("./assets/images/university logo.png"),
-      subHeader: "Bachelors of Science in Computer Science",
-      duration: "Jan 2019 - Feb 2025",
-      desc: "Active member of univesity's STEM initiative",
+      schoolName: "University of Winnipeg",
+      logo: require("./assets/images/university1.png"),
+      subHeader: "Bachelors of Business Technology Management",
+      duration: "Sept 2018 - Dec 2021",
       descBullets: [
         "Completed Courses: Data Structures & Algorithms, Operating Systems, Object-Oriented Programming, Database Management "
       ]
@@ -35,23 +34,21 @@ const illustration = {
 };
 
 const greeting = {
-  username: "guptasupriya",
-  title: "Hello! I am Supriya",
+  username: "Jayant Kaushik",
+  title: "Hello! I am Jayant",
   workTitle: emoji(
-    "🚀 Full-Stack Developer | CS Graduate | AWS Certified | Building scalable solutions with Python, Java, React & FastAPI"
+    "Software Developer | Business Technology Graduate | Proficient in Python, React, RESTful API Design, UX/UI Design|"
   ),
-  funTitle: emoji("Strumming code and 🎸 strings alike, I read to grow, and never stop learning"),
-  futureTitle: emoji("🛠️ Reimagine. Rebuild. Recode what doesn’t feel right"),
-  resumeLink: "https://drive.google.com/file/d/1aaMNV3ukhFgTTAT_oENMg4oMx5GPxPOe/view?usp=sharing", // Set to empty to hide the button
+  futureTitle: emoji(" Building responsive frontends with React and robust backends with Python and RESTful APIs."),
+  resumeLink: "https://drive.google.com/file/d/1H96av0wq_ztZH7Qi5qL7lcxvNswKPiUN/view?usp=drive_link", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/supriyagupta07",
-  linkedin: "https://www.linkedin.com/in/gupta-supriya/",
-  hashnode: "https://hashnode.com/@supriyagupta7",
-  gmail: "gupta.supriya.official@gmail.com",
+  github: "https://github.com/Jayant-Kaushik-Dev",
+  linkedin: "https://www.linkedin.com/in/jayant-kaushik-562228114/",
+  gmail: "ajkaushik98@gmail.com",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -60,21 +57,25 @@ const socialMediaLinks = {
 // Skills Section
 
 const skillsSection = {
-  title: "What I do",
-  subTitle: "Backend engineer who loves to build, break and rebuild.",
+  title: "My skillset",
+  subTitle: "Backend engineer who believes iteration is the key.",
   skills: [
     emoji(
-      "⚡ Swiftly create, break and validate novel solutions for emerging challenges."
+      "⚡ Proficient in building scalable applications using React for frontend and FastAPI for backend development."
     ),
     emoji(
-      "⚡ Skilled in crafting scalable observability backends for metrics with robust CI/CD."
+      "⚡ Skilled in designing, building, and consuming RESTful APIs using Python, FastAPI, and integrating them with frontend frameworks."
     ),
     emoji(
-      "⚡ Proficient in establishing robust data pipelines to gather and store metrics from virtual machines and Kubernetes."
+      "⚡ Hands-on experience with relational (PostgreSQL) and NoSQL (MongoDB) databases for designing schemas, queries, and data handling."
     ),
     emoji(
-      "⚡ Share and discuss ideas with patience to foster positive social interaction for innovation."
+      "⚡ Experienced with Git, GitHub for source control, and deploying full-stack applications using platforms like Render."
+    ),
+    emoji(
+      "⚡ Expert in user-centered UX/UI design, specializing in wireframing and interactive prototyping using Figma."
     )
+    
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -117,17 +118,17 @@ const techStack = {
       progressPercentage: "90%"
     },
     {
-      Stack: "Cloud and Microservices",
-      progressPercentage: "85%"
-    },
-    {
       Stack: "Backend/Design/Develop", //Insert stack or technology you have experience in
       progressPercentage: "80%" //Insert relative proficiency in percentage
     },
     {
       Stack: "CI/CD",
       progressPercentage: "75%"
-    }
+    },
+    {
+      Stack: "Databases",
+      progressPercentage: "80%"
+    }  
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
 };
@@ -138,29 +139,22 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Quality Engineer",
+      role: "Information Technology Operations Specialist",
       company: "NEO Financial",
       companylogo: require("./assets/images/NEO.jpg"),
-      date: "Sept 2023 – Dec 2023",
-      desc: "Designed testing strategies to enhance product quality and reduced testing cycle",
+      date: "Apr 2023 – Oct 2024",
+      desc: "Provided Tier 1 & 2 IT support for network, VPN, and system access issues; managed Jira-based incident workflows, automated onboarding/offboarding with scripts, and maintained Windows environments and software deployments.",
       descBullets: [
         // "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
         // "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
       ]
     },
     {
-      role: "Teaching Assistant",
-      company: "University Of Manitoba",
-      companylogo: require("./assets/images/university logo.png"),
-      date: "Jan 2022 – April 2018",
-      desc: 'Guided new coding students through core programming concepts in Intro to Programming course'
-    },
-    {
       role: "Software Developer Intern",
-      company: "GAO Tek",
-      companylogo: require("./assets/images/gaotek.webp"),
-      date: "May 2021 - Dec 2021",
-      desc: "Developed, tested, and debugged software. Proposed and aligned solutions with business goals"
+      company: "Aetherbyte Technologies",
+      companylogo: require("./assets/images/Aetherbyte.png"),
+      date: "Feb 2022 - Oct 2022",
+      desc: "Developed secure React frontends and Flask REST APIs with 95% test coverage, boosting performance by 25% and database response by 30%, while collaborating via Git and Jira in Agile sprints."
     }
     
   ]
@@ -177,29 +171,29 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Projects",
+  title: "Personal Projects",
   subtitle: "PERSONAL PROJECTS HELPED BUSINESSES",
   projects: [
     {
-      image: require("./assets/images/SP.jpeg"),
-      projectName: "Secured Password Generator",
-      projectDesc: "A React-based app creates secured customized password for user",
+      image: require("./assets/images/TASK.jpeg"),
+      projectName: "A task manager App - Frontend",
+      projectDesc: "Frontend created using React and CSS integrated with backend",
       footerLink: [
         {
           name: "Visit Website",
-          url: "https://secure-password-generator-theta.vercel.app/"
+          url: "https://task-manager-frontend-b39d.onrender.com/"
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/D.jpeg"),
-      projectName: "Dockerized Python Web Application",
-      projectDesc: "Python application, containerized it using Docker,",
+      image: require("./assets/images/API.png"),
+      projectName: "Task manager API - Backend",
+      projectDesc: "A RESTful API built with FastAPI that enables users to perform CRUD operations on tasks",
       footerLink: [
         {
           name: "Visit Website",
-          url: "https://python-2-dockerized-app.onrender.com/"
+          url: "https://task-manager-api-slu7.onrender.com"
         }
       ]
     }
@@ -217,39 +211,27 @@ const achievementSection = {
 
   achievementsCards: [
     {
-      title: "AWS",
-      subtitle: "AWS Cloud Practitioner Essential",
-      image: require("./assets/images/AWS.png"),
+      title: "Google UX Design Certification",
+      //subtitle: "",
+      image: require("./assets/images/google UX.png"),
       //imageAlt: "Google Code-In Logo",
       footerLink: [
         {
-          name: "Certification",
-          url: "https://drive.google.com/file/d/1bo0jiEmkwfaiIMvjEc-BuHr-B-eBhhNI/view?usp=sharing"
+          name: "View Certification",
+          url: "https://www.credly.com/go/6YS9WkOF"
         }
       ]
     },
     {
-      title: "Software Development",
-      subtitle: "Software Development Internship",
-      image: require("./assets/images/gaotek.webp"),
-      imageAlt: "Google Assistant Action Logo",
-      footerLink: [
-        {
-          name: "Certification",
-          url: "https://drive.google.com/file/d/1VyernMr_i3HFQv3xAzAi2T1rz7hYO4gA/view?usp=sharing"
-        }
-      ]
-    },
-    {
-      title: "Network Security",
+      title: "Udemy UX/UI Design Certification",
       subtitle:
-        "Intro to Ethical hacking",
-      image: require("./assets/images/Network.jpg"),
+        "Complete Web & Mobile Designer: UI/UX, Figma,+more",
+      image: require("./assets/images/UX.jpeg"),
       imageAlt: "Google Assistant Action Logo",
       footerLink: [
         {
-          name: "Award Certficate",
-          url: "https://drive.google.com/file/d/1JkDV_OJyOqU-VeAZHZ3pxMRg2ewEk0dZ/view?usp=sharing"
+          name: "View Certfication",
+          url: "https://drive.google.com/file/d/1c_0sbKRb1kMYcoyEGlNs2HL3Yoj30GUG/view?usp=drive_link"
         }
       ]
     }
@@ -298,7 +280,7 @@ const podcastSection = {
       }
 
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -325,8 +307,8 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  // number: "+1 431-388-9172",
-  email_address: "gupta.supriya.official@gmail.com"
+  // number: "+1 431-373-4513",
+  email_address: "ajkaushik98@gmail.com"
 };
 
 // Twitter Section
