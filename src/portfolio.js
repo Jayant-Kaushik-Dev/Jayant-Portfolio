@@ -40,7 +40,7 @@ const greeting = {
     "Software Developer | Business Technology Graduate | Proficient in Python, React, RESTful API Design, UX/UI Design|"
   ),
   futureTitle: emoji(" Building responsive frontends with React and robust backends with Python and RESTful APIs."),
-  resumeLink: "https://drive.google.com/file/d/1OmSFsvGlDzsJHOP10rm55sicWBA-7Z-b/view?usp=drive_link", // Set to empty to hide the button
+  resumeLink: "https://drive.google.com/file/d/1DCfWzHtmFWDdmVPOS6-ubUumvY0mVAtL/view?usp=drive_link", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 // Social Media Links
