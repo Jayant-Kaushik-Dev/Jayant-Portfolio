@@ -139,11 +139,11 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Information Technology Operations Specialist",
-      company: "NEO Financial",
+      role: "Junior Software Developer",
+      company: "Neo Financial Technologies Inc.",
       companylogo: require("./assets/images/NEO.jpg"),
       date: "Apr 2023 – Oct 2024",
-      desc: "Provided Tier 1 & 2 IT support for network, VPN, and system access issues; managed Jira-based incident workflows, automated onboarding/offboarding with scripts, and maintained Windows environments and software deployments.",
+      desc: "Built customer-facing features with React/TypeScript & FastAPI, optimized APIs (25% faster), improved onboarding (12% higher retention), and boosted test coverage by 20% through automated testing.",
       descBullets: [
         // "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
         // "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
