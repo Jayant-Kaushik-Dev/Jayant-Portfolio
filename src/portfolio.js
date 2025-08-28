@@ -143,7 +143,7 @@ const workExperiences = {
       company: "Neo Financial Technologies Inc.",
       companylogo: require("./assets/images/NEO.jpg"),
       date: "Apr 2023 – Oct 2024",
-      desc: "Built customer-facing features with React/TypeScript & FastAPI, optimized APIs (25% faster), improved onboarding (12% higher retention), and boosted test coverage by 20% through automated testing.",
+      desc: "Built customer-facing features with React/Python & FastAPI, optimized APIs (25% faster), improved onboarding (12% higher retention), and boosted test coverage by 20% through automated testing.",
       descBullets: [
         // "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
         // "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
